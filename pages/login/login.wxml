@@ -1,0 +1,20 @@
+<!-- pages/login/login.wxml -->
+<view class="login-wrap">
+    <view class="field-group">
+        <view class="input-field user-name">
+            <input-field focus type="number" value="{{userName}}" data-key="userName" placeholder-style="{{placeholderStyle}}" placeholder="输入账号" clearable custom-class="input-class" maxlength="18" bindchange="change" />
+        </view>
+        <view class="input-field password">
+            <input-field password value="{{password}}" data-key="password" placeholder-style="{{placeholderStyle}}" placeholder="输入账号密码" clearable custom-class="input-class" maxlength="16" bindchange="change" />
+        </view>
+        <view class="tips" bindtap="goRegister">没账号？点击注册</view>
+        <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="submit-btn {{disabled?'':'active'}}">
+            <van-icon color="#c001f8" custom-class="suc-icon" size="30" name="success" />
+        </button> -->
+        <button class="submit-btn {{disabled ? '' : 'active'}}" bindtap="submit">
+            <van-icon color="#c001f8" custom-class="suc-icon" size="30" name="success" />
+        </button>
+        <view class="tips login-question">登录遇到问题</view>
+    </view>
+    <other-login></other-login>
+</view>

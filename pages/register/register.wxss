@@ -1,0 +1,94 @@
+/* pages/register/register.wxss */
+/* pages/login/login.wxss */
+.login-wrap {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #796ffe, #c001f8);
+}
+
+.field-group {
+    width: 100%;
+    position: absolute;
+    top: 150rpx;
+    padding: 50rpx 70rpx;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom:8rpx;
+}
+
+
+.input-class {
+    width: 100%;
+    height: 100rpx;
+    border-radius: 3rpx;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 30rpx;
+    color: #fff;
+    font-size: 40rpx;
+    font-family: 'PingFangSC-Medium'
+}
+
+
+.placeholder-class {
+    color: rgba(238, 238, 238, 0.5);
+    font-size: 35rpx;
+}
+
+.submit-btn {
+    position: relative;
+    margin: 120rpx auto 0 auto;
+    width: 100rpx;
+    height: 100rpx;
+    border: 0;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.active {
+    background-color: #fff;
+}
+
+.suc-icon {
+    position: absolute !important;
+    top: 52%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.tips {
+    width: 100%;
+    margin-top: 30rpx;
+    text-align: center;
+    font-size: 25rpx;
+    color: #f3ba3a;
+}
+.other-login{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 25rpx;
+}
+.line{
+    width: 100%;
+    color: #eee;
+    text-align: center;
+}
+.other-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200rpx;
+}
+.wechat{
+    width: 50rpx;
+    height:50rpx;
+    border-radius: 100%;
+}
+.wechat-btn{
+    width: 50rpx;
+    height:50rpx;
+    border-radius: 100%;
+    padding: 0;
+    font-size: 0;
+}

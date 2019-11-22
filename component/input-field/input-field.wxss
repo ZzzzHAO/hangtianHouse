@@ -1,0 +1,32 @@
+/* component/input-field/input-field.wxss */
+.input-field {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-class {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 520rpx;
+    height: 100rpx;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    text-align: left;
+    background-color: initial;
+    border: 0;
+    resize: none;
+
+}
+
+.clearIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80rpx;
+    height: 80rpx;
+    z-index: 10;
+}

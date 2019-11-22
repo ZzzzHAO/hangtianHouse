@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/personal-center/personal-center",
+    "pages/message-list/message-list",
+    "pages/recommend-list/recommend-list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#796ffe",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "综拓助手",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": true,
+    "color": "#999",
+    "selectedColor": "#796ffe",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/recommend-list/recommend-list",
+        "iconPath": "images/icon/like.png",
+        "selectedIconPath": "images/icon/like_fill.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/message-list/message-list",
+        "iconPath": "images/icon/message.png",
+        "selectedIconPath": "images/icon/message_fill.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/personal-center/personal-center",
+        "iconPath": "images/icon/people.png",
+        "selectedIconPath": "images/icon/people_fill.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "van-field": "../../miniprogram_npm/vant-weapp/field/index",
+    "van-button": "../../miniprogram_npm/vant-weapp/button/index",
+    "van-icon": "../../miniprogram_npm/vant-weapp/icon/index",
+    "input-field": "../../component/input-field/input-field",
+    "other-login": "../../component/other-login/other-login"
+  },
+  "navigationBarBackgroundColor": "#796ffe",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "注册",
+  "backgroundTextStyle": "light",
+  "disableScroll": true
+}

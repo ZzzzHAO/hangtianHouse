@@ -1,0 +1,19 @@
+<!-- pages/register/register.wxml -->
+<view class="login-wrap">
+    <view class="field-group">
+        <view class="input-field user-name">
+            <input-field focus type="number" value="{{userName}}" data-key="userName" placeholder-style="{{placeholderStyle}}" placeholder="输入账号" clearable custom-class="input-class" maxlength="18" bindchange="change" />
+        </view>
+        <view class="input-field password">
+            <input-field password value="{{password}}" data-key="password" placeholder-style="{{placeholderStyle}}" placeholder="输入账号密码" clearable custom-class="input-class" maxlength="16" bindchange="change" />
+        </view>
+        <view class="input-field password-confirm">
+            <input-field password value="{{passwordConfirm}}" data-key="passwordConfirm" placeholder-style="{{placeholderStyle}}" placeholder="再次输入账号密码" clearable custom-class="input-class" maxlength="16" bindchange="change" />
+        </view>
+        <view class="tips" bindtap="goLogin">已有账号？直接登录</view>
+        <button class="submit-btn {{ disabled ? '' : 'active' }}" bindtap="register">
+            <van-icon color="#c001f8" custom-class="suc-icon" size="30" name="success" />
+        </button>
+    </view>
+    <other-login></other-login>
+</view>

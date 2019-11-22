@@ -1,0 +1,9 @@
+<!--component/other-login/other-login.wxml-->
+<view class="other-login">
+    <view class="line">——————  其他登录方式  ——————</view>
+    <view class="other-list">
+        <button class="wechat-btn" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+            <image class="wechat" src="../../images/wechat.jpeg" />
+        </button>
+    </view>
+</view>

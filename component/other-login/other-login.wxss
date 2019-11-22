@@ -1,0 +1,30 @@
+/* component/other-login/other-login.wxss */
+.other-login{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 25rpx;
+}
+.line{
+    width: 100%;
+    color: #eee;
+    text-align: center;
+}
+.other-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200rpx;
+}
+.wechat{
+    width: 50rpx;
+    height:50rpx;
+    border-radius: 100%;
+}
+.wechat-btn{
+    width: 50rpx;
+    height:50rpx;
+    border-radius: 100%;
+    padding: 0;
+    font-size: 0;
+}
